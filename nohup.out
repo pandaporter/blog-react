@@ -1,0 +1,24 @@
+
+> blog-react@0.1.0 start /root/code/blog-react
+> node scripts/start.js
+
+[HPM] Proxy created: /api  ->  http://127.0.0.1:5030/
+[HPM] Proxy rewrite rule created: "^/api" ~> ""
+Starting the development server...
+
+Browserslist: caniuse-lite is outdated. Please run next command `yarn upgrade caniuse-lite browserslist`
+Webpack Bundle Analyzer is started at http://127.0.0.1:8888
+Use Ctrl+C to close it
+Compiled successfully!
+
+You can now view blog-react in the browser.
+
+  Local:            http://localhost:5012/
+  On Your Network:  http://192.168.0.138:5012/
+
+Note that the development build is not optimized.
+To create a production build, use yarn build.
+
+[HPM] Error occurred while trying to proxy request /getTagList?keyword=&pageNum=1&pageSize=50 from blog.damong.cn to http://127.0.0.1:5030/ (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while trying to proxy request /getProjectList?keyword=&pageNum=1&pageSize=10 from blog.damong.cn to http://127.0.0.1:5030/ (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while trying to proxy request /register from blog.damong.cn to http://127.0.0.1:5030/ (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
